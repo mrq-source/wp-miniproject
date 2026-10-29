@@ -1,12 +1,16 @@
-<h1>4 sections:</h1>
-1. Login page<br>
-2. Home page<br>
-3. Quiz section<br>
-4. Skill Learning section<br>
+# React + Vite
 
-Detailing:<br>
-Developing a website to help people and learning basic coding. <br>
-the login page helps login each user and keeps track of each users individual progress.<br>
-home page displays the users progress and all the available skills they can learn.<br>
-quiz helps then test themself and provide themself with understanding of where they stand.<br>
-skills helps them learn different skills to upgrade themself.<br>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
